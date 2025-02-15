@@ -10,7 +10,7 @@ export default function About() {
 						私について
 					</div>
 					<div className="text-base text-center w-xl break-all">
-						山と海に囲まれた長崎という地で25年間生まれ育つ。大学では薬学を専攻。大学卒業後、10名程度の小さなweb開発会社に入社し、システムエンジニアとしてのキャリアをスタート。現在エンジニア歴は5年目。フリーランスエンジニアとして活動中。多趣味。興味を持ったらなんでもやるタイプ。
+						山と海に囲まれた長崎という地で25年間生まれ育つ。大学では薬学を専攻。大学卒業後、10名程度の小さなweb開発会社に入社し、システムエンジニアとしてのキャリアをスタート。現在エンジニア歴は5年目。フリーランスエンジニアとして活動中。フロントエンドが強みだが、バックエンドとモバイルの開発も可能。多趣味。興味を持ったらなんでもやるタイプ。
 					</div>
 					<div className="text-xl sm:text-2xl font-bold text-center w-xl break-all">
 						資格
@@ -25,9 +25,8 @@ export default function About() {
 						<div className="text-lg font-bold">フロントエンド</div>
 						<ul>
 							<li>HTML/CSS/JavaScript 4年</li>
-							<li>TypeScript 2年半</li>
-							<li>flow 2年</li>
-							<li>React 2年半</li>
+							<li>TypeScript 3年</li>
+							<li>React 3年</li>
 							<li>Vue.js(2系) 1年</li>
 							<li>Next.js 業務外で学習</li>
 							<li>Node.js 2年</li>
@@ -40,10 +39,15 @@ export default function About() {
 							<li>Ruby on Rails 2年</li>
 							<li>Go 業務外で学習</li>
 							<li>Rust 業務外で学習</li>
+							<li>express.js 業務外で学習</li>
+							<li>MySQL 4年</li>
+							<li>REST API 3年</li>
+							<li>GraphQL 業務外で学習</li>
 						</ul>
 						<div className="text-lg font-bold">モバイル</div>
 						<ul>
 							<li>React Native 1年</li>
+							<li>Flutter 業務外で学習</li>
 						</ul>
 						<div className="text-lg font-bold">その他</div>
 						<ul>
