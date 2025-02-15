@@ -7,7 +7,7 @@ export default function Home() {
 			<Header />
 			<div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-4 font-[family-name:var(--font-geist-sans)]">
 				<main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-					<Image src="/stars.jpg" alt="main image" fill />
+					<Image src="/stars.webp" alt="main image" fill />
 					<div className="text-xl sm:text-2xl font-bold text-center sm:text-center w-full z-10">
 						ポートフォリオサイト
 					</div>
