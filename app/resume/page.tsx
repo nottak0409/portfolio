@@ -11,8 +11,12 @@ export default function About() {
 					</div>
 					<div className="text-base font-bold text-center sm:text-center w-xl break-all">
 						<ul>
-							<li>株式会社アンビシャス</li>
-							<li>株式会社インテグリティ・ヘルスケア</li>
+							<li>2020年9月 ~ 2022年10月 株式会社アンビシャス</li>
+							<li>
+								2022年11月 ~ 2025年1月
+								株式会社インテグリティ・ヘルスケア
+							</li>
+							<li>2025年3月 ~ フリーランス</li>
 						</ul>
 					</div>
 				</main>
