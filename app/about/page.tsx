@@ -9,6 +9,9 @@ export default function About() {
 					<div className="text-xl sm:text-2xl font-bold text-center sm:text-center w-full">
 						私について
 					</div>
+					<div className="text-base font-bold text-center sm:text-center w-xl break-all">
+						testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttest
+					</div>
 				</main>
 			</div>
 		</div>

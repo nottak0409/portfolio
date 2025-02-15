@@ -9,6 +9,12 @@ export default function About() {
 					<div className="text-xl sm:text-2xl font-bold text-center sm:text-center w-full">
 						職務経歴
 					</div>
+					<div className="text-base font-bold text-center sm:text-center w-xl break-all">
+						<ul>
+							<li>株式会社アンビシャス</li>
+							<li>株式会社インテグリティ・ヘルスケア</li>
+						</ul>
+					</div>
 				</main>
 			</div>
 		</div>

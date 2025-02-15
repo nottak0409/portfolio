@@ -5,13 +5,18 @@ export default function Home() {
 	return (
 		<div>
 			<Header />
-			<div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-4 font-[family-name:var(--font-geist-sans)]">
-				<main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-					<Image src="/stars.webp" alt="main image" fill />
-					<div className="text-xl sm:text-2xl font-bold text-center sm:text-center w-full z-10">
-						ポートフォリオサイト
+			<div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-8 sm:p-4 font-[family-name:var(--font-geist-sans)]">
+				<main className="flex flex-col gap-4 row-start-2 items-center sm:items-start">
+					<div>
+						<Image src="/stars.webp" alt="main image" fill />
 					</div>
-					<div className="flex gap-4 items-center justify-center flex-col sm:flex-row w-full z-10">
+					<div className="text-xl sm:text-2xl font-bold text-center sm:text-center w-full z-10">
+						Noda Takuma
+					</div>
+					<div className="text-xl sm:text-2xl font-bold text-center sm:text-center w-full z-10">
+						freelance engineer/rikuzen owner
+					</div>
+					<div className="flex gap-4 items-center justify-center flex-col sm:flex-row w-full z-10 mt-8">
 						<a
 							className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 min-w-44"
 							href="/about"
