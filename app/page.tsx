@@ -32,6 +32,37 @@ export default function Home() {
 							resume
 						</a>
 					</div>
+					<div className="text-xl sm:text-2xl font-bold text-center sm:text-center w-full z-10 mt-8">
+						contact me
+						<div className="text-base mt-8">
+							<div>
+								email:{" "}
+								<a href="mailto:rikuzen.noda0409@gmail.com">
+									rikuzen.noda0409@gmail.com
+								</a>
+							</div>
+							<div>
+								x:{" "}
+								<a
+									href="https://x.com/ntk673376240323"
+									rel="noopener noreferrer"
+									target="_blank"
+								>
+									https://x.com/ntk673376240323
+								</a>
+							</div>
+							<div>
+								github:{" "}
+								<a
+									href="https://github.com/nottak0409"
+									rel="noopener noreferrer"
+									target="_blank"
+								>
+									https://github.com/nottak0409
+								</a>
+							</div>
+						</div>
+					</div>
 				</main>
 			</div>
 		</div>
