@@ -65,7 +65,10 @@ export default function About() {
 							<li>GithubActions 2年</li>
 							<li>Terraform 業務内で少々</li>
 							<li>Serverless 業務内で少々</li>
-							<li>AWS EC2/S3/RDS/Lambda 業務内で少々</li>
+							<li>
+								AWS EC2/S3/RDS/Lambda/CloudWatch 業務内で少々
+							</li>
+							<li>Mackerel 業務内で少々</li>
 							<li>Docker 業務内で少々</li>
 						</ul>
 					</div>
