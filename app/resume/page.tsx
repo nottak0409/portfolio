@@ -4,17 +4,20 @@ export default function About() {
 	return (
 		<div>
 			<Header />
-			<div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-				<main className="flex flex-col gap-4 row-start-2 items-center">
+			<div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)] z-10">
+				<main className="flex flex-col gap-4 row-start-2 items-center z-10">
 					<div className="text-xl sm:text-2xl font-bold text-center sm:text-center w-full">
 						職務経歴
 					</div>
 					<div className="text-base font-bold text-center sm:text-center w-xl break-all">
 						<ul>
-							<li>2020年9月 ~ 2022年10月 株式会社アンビシャス</li>
 							<li>
-								2022年11月 ~ 2025年1月
-								株式会社インテグリティ・ヘルスケア
+								2020年9月 ~ 2022年10月 中小システム開発会社
+								正社員
+							</li>
+							<li>
+								2022年11月 ~ 2025年1月 医療系のベンチャー企業
+								正社員
 							</li>
 							<li>2025年3月 ~ フリーランス</li>
 						</ul>
