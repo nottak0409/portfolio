@@ -12,11 +12,11 @@ export default function About() {
 					<div className="text-base text-center sm:text-center w-xl break-all">
 						<ul>
 							<li>
-								2020年9月 ~ 2022年10月 中小システム開発会社
-								正社員
+								2020年9月 ~ 2022年10月
+								10名程度のシステム開発会社 正社員
 							</li>
 							<li>
-								2022年11月 ~ 2025年1月 医療系のベンチャー企業
+								2022年11月 ~ 2025年1月 医療系のITベンチャー企業
 								正社員
 							</li>
 							<li>2025年3月 ~ フリーランス</li>
