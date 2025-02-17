@@ -72,6 +72,15 @@ export default function About() {
 							<li>Docker 業務内で少々</li>
 						</ul>
 					</div>
+					<div className="text-xl sm:text-2xl font-bold text-center w-xl break-all mt-8">
+						<a
+							href="/resume.pdf"
+							download
+							className="hover:underline"
+						>
+							詳細な職務経歴書はこちら
+						</a>
+					</div>
 				</main>
 			</div>
 		</div>
