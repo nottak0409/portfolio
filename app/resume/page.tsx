@@ -37,6 +37,8 @@ export default function About() {
 							<li>HTML/CSS/JavaScript 4年</li>
 							<li>TypeScript 3年</li>
 							<li>React 3年</li>
+							<li>Redux 3年</li>
+							<li>Recoil 半年</li>
 							<li>Vue.js(2系) 1年</li>
 							<li>Next.js 業務外で学習</li>
 							<li>Node.js 2年</li>
