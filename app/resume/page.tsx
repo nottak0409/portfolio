@@ -2,18 +2,20 @@
 
 import { useState } from "react";
 import Header from "../header";
+import Accordion from "../Accordion";
 
 export default function About() {
-	type windows = "frontend" | "backend" | "mobile" | "other";
-	const [openWindow, setOpenWindow] = useState<null | windows>(null);
-	const changeWindow = (window: windows): void => {
+	type Windows = "frontend" | "backend" | "mobile" | "other";
+	const [openWindow, setOpenWindow] = useState<null | Windows>(null);
+
+	const changeWindow = (window: Windows): void => {
 		if (openWindow === window) {
 			setOpenWindow(null);
 			return;
 		}
 		setOpenWindow(window);
 	};
-	const isWindow = (window: windows): boolean => window === openWindow;
+
 	return (
 		<div>
 			<Header />
@@ -44,110 +46,62 @@ export default function About() {
 					<div className="text-xl sm:text-2xl font-bold text-center w-xl break-all">
 						スキル
 					</div>
-					<div className="text-center break-all flex flex-col gap-2">
-						<button
-							className="text-lg font-bold"
-							onClick={() => changeWindow("frontend")}
-						>
-							フロントエンド ▼
-						</button>
-						<div
-							className={`grid duration-500 ease-in-out ${
-								isWindow("frontend")
-									? "grid-rows-[1fr]"
-									: "grid-rows-[0fr]"
-							}`}
-						>
-							<div className="overflow-hidden">
-								<ul>
-									<li>HTML/CSS/JavaScript 4年</li>
-									<li>TypeScript 3年</li>
-									<li>React 3年</li>
-									<li>Redux 3年</li>
-									<li>Recoil 半年</li>
-									<li>Vue.js(2系) 1年</li>
-									<li>Next.js 業務外で学習</li>
-									<li>Node.js 2年</li>
-								</ul>
-							</div>
-						</div>
-						<button
-							className="text-lg font-bold"
-							onClick={() => changeWindow("backend")}
-						>
-							バックエンド ▼
-						</button>
-						<div
-							className={`grid duration-500 ease-in-out ${
-								isWindow("backend")
-									? "grid-rows-[1fr]"
-									: "grid-rows-[0fr]"
-							}`}
-						>
-							<div className="overflow-hidden">
-								<ul>
-									<li>PHP 2年半</li>
-									<li>Ruby 2年</li>
-									<li>Laravel 2年</li>
-									<li>Ruby on Rails 2年</li>
-									<li>Go 業務外で学習</li>
-									<li>Rust 業務外で学習</li>
-									<li>express.js 業務外で学習</li>
-									<li>MySQL 4年</li>
-									<li>REST API 3年</li>
-									<li>GraphQL 業務外で学習</li>
-								</ul>
-							</div>
-						</div>
-						<button
-							className="text-lg font-bold"
-							onClick={() => changeWindow("mobile")}
-						>
-							モバイル ▼
-						</button>
-						<div
-							className={`grid duration-500 ease-in-out ${
-								isWindow("mobile")
-									? "grid-rows-[1fr]"
-									: "grid-rows-[0fr]"
-							}`}
-						>
-							<div className="overflow-hidden">
-								<ul>
-									<li>React Native 1年</li>
-									<li>Flutter 業務外で学習</li>
-								</ul>
-							</div>
-						</div>
-						<button
-							className="text-lg font-bold"
-							onClick={() => changeWindow("other")}
-						>
-							その他 ▼
-						</button>
-						<div
-							className={`grid duration-500 ease-in-out ${
-								isWindow("other")
-									? "grid-rows-[1fr]"
-									: "grid-rows-[0fr]"
-							}`}
-						>
-							<div className="overflow-hidden">
-								<ul>
-									<li>Git 4年半</li>
-									<li>GithubActions 2年</li>
-									<li>Terraform 業務内で少々</li>
-									<li>Serverless 業務内で少々</li>
-									<li>
-										AWS EC2/S3/RDS/Lambda/CloudWatch
-										業務内で少々
-									</li>
-									<li>Mackerel 業務内で少々</li>
-									<li>Docker 業務内で少々</li>
-								</ul>
-							</div>
-						</div>
-					</div>
+					<Accordion
+						title="フロントエンド"
+						content={[
+							"HTML/CSS/JavaScript 4年",
+							"TypeScript 3年",
+							"React 3年",
+							"Redux 3年",
+							"Recoil 半年",
+							"Vue.js(2系) 1年",
+							"Next.js 業務外で学習",
+							"Node.js 2年",
+						]}
+						windowType="frontend"
+						openWindow={openWindow}
+						changeWindow={changeWindow}
+					/>
+					<Accordion
+						title="バックエンド"
+						content={[
+							"PHP 2年半",
+							"Ruby 2年",
+							"Laravel 2年",
+							"Ruby on Rails 2年",
+							"Go 業務外で学習",
+							"Rust 業務外で学習",
+							"express.js 業務外で学習",
+							"MySQL 4年",
+							"REST API 3年",
+							"GraphQL 業務外で学習",
+						]}
+						windowType="backend"
+						openWindow={openWindow}
+						changeWindow={changeWindow}
+					/>
+					<Accordion
+						title="モバイル"
+						content={["React Native 1年", "Flutter 業務外で学習"]}
+						windowType="mobile"
+						openWindow={openWindow}
+						changeWindow={changeWindow}
+					/>
+					<Accordion
+						title="その他"
+						content={[
+							"Git 4年半",
+							"GithubActions 2年",
+							"Terraform 業務内で少々",
+							"Serverless 業務内で少々",
+							"AWS EC2/S3/RDS/Lambda/CloudWatch 業務内で少々",
+							"Mackerel 業務内で少々",
+							"Docker 業務内で少々",
+						]}
+						windowType="other"
+						openWindow={openWindow}
+						changeWindow={changeWindow}
+					/>
 					<div className="text-xl sm:text-2xl font-bold text-center w-xl break-all mt-8">
 						<a
 							href="/resume.pdf"
