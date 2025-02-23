@@ -71,6 +71,7 @@ export default function About() {
 							"Ruby on Rails 2年",
 							"Go 業務外で学習",
 							"Rust 業務外で学習",
+							"node.js 業務外で学習",
 							"express.js 業務外で学習",
 							"MySQL 4年",
 							"REST API 3年",
