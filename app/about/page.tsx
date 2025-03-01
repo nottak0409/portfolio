@@ -31,7 +31,7 @@ export default function About() {
 					<div className="text-xl sm:text-2xl font-bold text-center w-xl break-all">
 						大事にしている価値観
 					</div>
-					<div>寛容・感謝・貢献・挑戦</div>
+					<div>寛容・感謝・尊敬・貢献・挑戦</div>
 				</main>
 			</div>
 		</div>
