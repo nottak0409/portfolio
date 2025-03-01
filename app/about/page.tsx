@@ -19,19 +19,21 @@ export default function About() {
 							alt="my bike image"
 						/>
 					</div>
-					<div className="text-base text-center w-xl break-all">
+					<div className="text-base text-center w-xl sm:w-5/6 break-all">
 						山と海に囲まれた長崎という地で25年間生まれ育つ。大学では薬学を専攻。大学卒業後、新卒の採用支援事業を行う企業で営業を3ヶ月経験後、10名程度の小さなweb開発会社に入社し、ITエンジニアとしてのキャリアをスタート。現在エンジニア歴は5年目。フリーランスエンジニアとして活動中。フロントエンドが強みだが、バックエンドとモバイルの開発も可能。多趣味。興味を持ったらなんでもやるタイプ。顧客のビジネスを理解し、問題解決に貢献することを大事にしている。必要であれば新しい技術を学ぶことに抵抗がない。
 					</div>
-					<div className="text-xl sm:text-2xl font-bold text-center w-xl break-all">
+					<div className="text-xl sm:text-2xl font-bold text-center w-xl  sm:w-5/6 break-all">
 						趣味
 					</div>
-					<div>
+					<div className="w-xl sm:w-5/6 text-center">
 						読書・散歩・ギター・バレーボール・バイク・麻雀・温泉巡り・クラフトビール・etc...
 					</div>
-					<div className="text-xl sm:text-2xl font-bold text-center w-xl break-all">
+					<div className="text-xl sm:text-2xl font-bold text-center w-xl sm:w-5/6 break-all">
 						大事にしている価値観
 					</div>
-					<div>寛容・感謝・尊敬・貢献・挑戦</div>
+					<div className="w-xl sm:w-5/6 text-center">
+						寛容・感謝・尊敬・貢献・挑戦
+					</div>
 				</main>
 			</div>
 		</div>
