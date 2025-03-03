@@ -17,6 +17,7 @@ export default function About() {
 							height="50"
 							layout="responsive"
 							alt="my bike image"
+							priority={true}
 						/>
 					</div>
 					<div className="text-base text-center w-xl sm:w-5/6 break-all">
