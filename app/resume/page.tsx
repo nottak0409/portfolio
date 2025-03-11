@@ -56,7 +56,6 @@ export default function About() {
 							"Recoil 半年",
 							"Vue.js(2系) 1年",
 							"Next.js 業務外で学習",
-							"Node.js 2年",
 						]}
 						windowType="frontend"
 						openWindow={openWindow}
@@ -69,8 +68,8 @@ export default function About() {
 							"Ruby 2年",
 							"Laravel 2年",
 							"Ruby on Rails 2年",
-							"node.js 1年未満",
-							"express.js 1年未満",
+							"Node.js 2年",
+							"express.js 半年未満",
 							"Go 業務外で学習",
 							"Rust 業務外で学習",
 							"MySQL 4年",
