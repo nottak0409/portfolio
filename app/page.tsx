@@ -40,23 +40,33 @@ export default function Home() {
 								</a>
 							</div>
 							<div>
-								x:{" "}
+								X:{" "}
 								<a
 									href="https://x.com/ntk673376240323"
 									rel="noopener noreferrer"
 									target="_blank"
 								>
-									https://x.com/ntk673376240323
+									ntk673376240323
 								</a>
 							</div>
 							<div>
-								github:{" "}
+								Github:{" "}
 								<a
 									href="https://github.com/nottak0409"
 									rel="noopener noreferrer"
 									target="_blank"
 								>
-									https://github.com/nottak0409
+									nottak0409
+								</a>
+							</div>
+							<div>
+								YouTrust:{" "}
+								<a
+									href="https://youtrust.jp/users/876e533eecfc1606bf495d380abae088"
+									rel="noopener noreferrer"
+									target="_blank"
+								>
+									YOUTRUST
 								</a>
 							</div>
 						</div>
