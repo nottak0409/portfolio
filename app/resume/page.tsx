@@ -19,7 +19,14 @@ export default function About() {
 								2022年11月 ~ 2025年1月 医療系のITベンチャー企業
 								正社員
 							</li>
-							<li>2025年3月 ~ フリーランス</li>
+							<li>
+								2025年3月 ~ 六然システム代表
+								フリーランスエンジニア
+							</li>
+							<li>
+								2025年3月 ~ HRTech系の事業会社
+								フロントエンドエンジニア
+							</li>
 						</ul>
 					</div>
 					<div className="text-xl sm:text-2xl font-bold text-center w-xl break-all">
