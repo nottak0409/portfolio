@@ -30,46 +30,62 @@ export default function Home() {
 							resume
 						</a>
 					</div>
-					<div className="text-xl sm:text-2xl font-bold text-center sm:text-center w-full z-10 mt-8">
-						contact me
-						<div className="text-base mt-8">
-							<div>
-								email:{" "}
-								<a href="mailto:rikuzen.noda0409@gmail.com">
+					<div className="text-xl sm:text-2xl font-bold text-center sm:text-center w-full z-10 mt-8 mb-6">
+						Contact me
+					</div>
+					<div className="grid grid-cols-1 sm:grid-cols-2 gap-4 w-full max-w-2xl z-10">
+						<a
+							href="mailto:rikuzen.noda0409@gmail.com"
+							className="flex items-center p-4 rounded-2xl border border-gray-700 hover:border-gray-500 transition-all duration-200 hover:scale-105"
+						>
+							<div className="flex flex-col">
+								<span className="text-sm text-gray-400">
+									Email
+								</span>
+								<span className="mt-1">
 									rikuzen.noda0409@gmail.com
-								</a>
+								</span>
 							</div>
-							<div>
-								X:{" "}
-								<a
-									href="https://x.com/ntk673376240323"
-									rel="noopener noreferrer"
-									target="_blank"
-								>
-									ntk673376240323
-								</a>
+						</a>
+						<a
+							href="https://x.com/ntk673376240323"
+							target="_blank"
+							rel="noopener noreferrer"
+							className="flex items-center p-4 rounded-2xl border border-gray-700 hover:border-gray-500 transition-all duration-200 hover:scale-105"
+						>
+							<div className="flex flex-col">
+								<span className="text-sm text-gray-400">
+									X (Twitter)
+								</span>
+								<span className="mt-1">ntk673376240323</span>
 							</div>
-							<div>
-								Github:{" "}
-								<a
-									href="https://github.com/nottak0409"
-									rel="noopener noreferrer"
-									target="_blank"
-								>
-									nottak0409
-								</a>
+						</a>
+						<a
+							href="https://github.com/nottak0409"
+							target="_blank"
+							rel="noopener noreferrer"
+							className="flex items-center p-4 rounded-2xl border border-gray-700 hover:border-gray-500 transition-all duration-200 hover:scale-105"
+						>
+							<div className="flex flex-col">
+								<span className="text-sm text-gray-400">
+									GitHub
+								</span>
+								<span className="mt-1">nottak0409</span>
 							</div>
-							<div>
-								YouTrust:{" "}
-								<a
-									href="https://youtrust.jp/users/876e533eecfc1606bf495d380abae088"
-									rel="noopener noreferrer"
-									target="_blank"
-								>
-									YOUTRUST
-								</a>
+						</a>
+						<a
+							href="https://youtrust.jp/users/876e533eecfc1606bf495d380abae088"
+							target="_blank"
+							rel="noopener noreferrer"
+							className="flex items-center p-4 rounded-2xl border border-gray-700 hover:border-gray-500 transition-all duration-200 hover:scale-105"
+						>
+							<div className="flex flex-col">
+								<span className="text-sm text-gray-400">
+									YouTrust
+								</span>
+								<span className="mt-1">プロフィールを見る</span>
 							</div>
-						</div>
+						</a>
 					</div>
 				</main>
 			</div>
