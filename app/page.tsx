@@ -3,10 +3,18 @@ import Image from "next/image";
 
 export default function Home() {
 	return (
-		<div>
-			<Image src="/stars.webp" alt="main image" fill priority={true} />
+		<div className="relative min-h-screen">
+			<div className="fixed inset-0 w-full">
+				<Image
+					src="/stars.webp"
+					alt="main image"
+					fill
+					priority={true}
+					className="object-cover"
+				/>
+			</div>
 			<Header />
-			<div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 gap-16 sm:p-4 font-[family-name:var(--font-geist-sans)]">
+			<div className="relative grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 gap-16 sm:p-4 font-[family-name:var(--font-geist-sans)]">
 				<main className="flex flex-col gap-4 row-start-2 items-center sm:items-start">
 					<div className="text-xl sm:text-2xl font-bold text-center sm:text-center w-full z-10">
 						Noda Takuma
