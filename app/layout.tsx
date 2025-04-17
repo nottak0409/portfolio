@@ -24,6 +24,14 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="ja">
+			<head>
+				<link
+					rel="preload"
+					href="/stars.webp"
+					as="image"
+					type="image/webp"
+				/>
+			</head>
 			<body
 				className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gray-900`}
 			>
