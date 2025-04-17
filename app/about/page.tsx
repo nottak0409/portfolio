@@ -21,15 +21,45 @@ export default function About() {
 						/>
 					</div>
 					<div className="text-base text-center w-xl sm:w-5/6 break-all">
-						山と海に囲まれた長崎という地で25年間生まれ育つ。大学では薬学を専攻。大学卒業後、新卒の採用支援事業を行う企業で営業を3ヶ月経験後、10名程度の小さなweb開発会社に入社し、ITエンジニアとしてのキャリアをスタート。現在エンジニア歴は5年目。フリーランスエンジニアとして活動中。フロントエンドが強みだが、バックエンドとモバイルの開発も可能。多趣味。興味を持ったらなんでもやるタイプ。顧客のビジネスを理解し、問題解決に貢献することを大事にしている。必要であれば新しい技術を学ぶことに抵抗がない。チームビルディングや周囲の人とのコミュニケーションを大事にし、働きやすい環境を作ることを心がけている。
+						山と海に囲まれた長崎という地で25年間生まれ育つ。大学では薬学を専攻。大学卒業後、新卒の採用支援事業を行う企業で営業を経験後、小規模なweb開発会社でITエンジニアとしてのキャリアをスタート。現在エンジニア歴は5年目。フリーランスエンジニアとして活動中。
 					</div>
-					<div className="text-xl sm:text-2xl font-bold text-center w-xl  sm:w-5/6 break-all">
+					<div className="text-base text-center w-xl sm:w-5/6 break-all mt-4">
+						React / Next.js / Laravel / Ruby on Rails / React Native
+						などを中心に、フロントエンド・バックエンド・モバイルの実装から、設計・技術選定・チーム支援まで幅広く対応できるエンジニアです。
+					</div>
+					<div className="text-base text-center w-xl sm:w-5/6 break-all mt-4">
+						特に「ドキュメントが整っていない」「誰が進めるか曖昧な」状態のプロジェクトにおいて、コードと会話を通じて、状況を整理し、チームが動ける状態に持っていくことを得意としています。
+					</div>
+					<div className="text-xl sm:text-2xl font-bold text-center w-xl sm:w-5/6 break-all mt-8">
+						これまでの主な役割
+					</div>
+					<div className="w-xl sm:w-5/6 text-center">
+						<ul className="list-disc text-left inline-block">
+							<li>
+								技術的負債を抱えた既存プロダクトのリプレイス方針立案と実装リード
+							</li>
+							<li>
+								仕様が存在しない既存コードのリバースエンジニアリングと要件整理
+							</li>
+							<li>
+								新規参画者のオンボーディング・チケット分割・開発環境の整備
+							</li>
+							<li>
+								WebアプリからWebViewアプリ化の技術調査・アーキテクチャ検討
+							</li>
+							<li>チーム内レビュー・開発効率向上施策の推進</li>
+						</ul>
+					</div>
+					<div className="text-base text-center w-xl sm:w-5/6 break-all mt-4">
+						プロダクトやチームの成功を第一に考え、「この人がいるとプロジェクトが止まらない」と思っていただけるような動き方を大切にしています。技術力だけではなく、チームやプロダクトを前に進める力を活かし、より良い体験を生み出すことを目指しています。
+					</div>
+					<div className="text-xl sm:text-2xl font-bold text-center w-xl sm:w-5/6 break-all mt-8">
 						趣味
 					</div>
 					<div className="w-xl sm:w-5/6 text-center">
 						読書・散歩・ギター・バレーボール・バイク・麻雀・温泉巡り・クラフトビール・etc...
 					</div>
-					<div className="text-xl sm:text-2xl font-bold text-center w-xl sm:w-5/6 break-all">
+					<div className="text-xl sm:text-2xl font-bold text-center w-xl sm:w-5/6 break-all mt-8">
 						大事にしている価値観
 					</div>
 					<div className="w-xl sm:w-5/6 text-center">
