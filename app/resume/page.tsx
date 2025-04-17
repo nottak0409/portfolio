@@ -1,10 +1,20 @@
 import Header from "../header";
+import Image from "next/image";
 
-export default function About() {
+export default function Resume() {
 	return (
-		<div>
+		<div className="relative min-h-screen">
+			<div className="fixed inset-0 w-full">
+				<Image
+					src="/stars.webp"
+					alt="background image"
+					fill
+					priority={true}
+					className="object-cover"
+				/>
+			</div>
 			<Header />
-			<div className="pt-28 min-h-screen p-8 gap-16 font-[family-name:var(--font-geist-sans)]">
+			<div className="relative pt-28 min-h-screen p-8 gap-16 font-[family-name:var(--font-geist-sans)]">
 				<main className="flex flex-col gap-4 row-start-2 items-center z-10">
 					<div className="text-xl sm:text-2xl font-bold text-center sm:text-center w-full">
 						職務経歴
