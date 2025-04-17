@@ -87,10 +87,9 @@ export default function About() {
 							</li>
 							<li>Mackerel 業務内で少々</li>
 							<li>Docker 業務内で少々</li>
-							<li>要件定義 一人称での経験は少なめ 1年</li>
+							<li>要件定義 一人称での経験は少なめ 1年と少し</li>
 							<li>基本設計 2年</li>
 							<li>詳細設計 4年</li>
-							<li>要件定義 一人称での経験は少なめ 1年と少し</li>
 							<li>テスト設計 2年半</li>
 							<li>テスト実行 4年</li>
 							<li>テスト自動化 2年</li>
