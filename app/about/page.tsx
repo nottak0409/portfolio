@@ -19,16 +19,17 @@ export default function About() {
 					<div className="text-xl sm:text-2xl font-bold text-center sm:text-center w-full">
 						私について
 					</div>
-					<div className="w-30 sm:w-60 relative aspect-[1/1]">
+					<div className="w-40 sm:w-80 relative aspect-[16/9] group overflow-hidden rounded-2xl">
 						<Image
 							src="/bike.webp"
 							alt="my bike image"
 							fill
 							quality={100}
 							priority={true}
-							sizes="(max-width: 640px) 120px, 240px"
-							className="object-cover"
+							sizes="(max-width: 640px) 160px, 320px"
+							className="object-cover transition-transform duration-700 group-hover:scale-110"
 						/>
+						<div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/30 opacity-0 group-hover:opacity-100 transition-opacity duration-700" />
 					</div>
 					<div className="text-base text-center w-xl sm:w-5/6 break-all">
 						山と海に囲まれた長崎という地で25年間生まれ育つ。大学では薬学を専攻。大学卒業後、新卒の採用支援事業を行う企業で営業を経験後、小規模なweb開発会社でITエンジニアとしてのキャリアをスタート。現在エンジニア歴は5年目。フリーランスエンジニアとして活動中。
