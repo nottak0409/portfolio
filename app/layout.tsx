@@ -31,6 +31,12 @@ export default function RootLayout({
 					as="image"
 					type="image/webp"
 				/>
+				<link
+					rel="preload"
+					href="/bike.webp"
+					as="image"
+					type="image/webp"
+				/>
 			</head>
 			<body
 				className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gray-900`}

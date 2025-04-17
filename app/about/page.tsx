@@ -19,14 +19,15 @@ export default function About() {
 					<div className="text-xl sm:text-2xl font-bold text-center sm:text-center w-full">
 						私について
 					</div>
-					<div className="w-30 sm:w-60">
+					<div className="w-30 sm:w-60 relative aspect-[1/1]">
 						<Image
 							src="/bike.webp"
-							width="50"
-							height="50"
-							layout="responsive"
 							alt="my bike image"
+							fill
+							quality={100}
 							priority={true}
+							sizes="(max-width: 640px) 120px, 240px"
+							className="object-cover"
 						/>
 					</div>
 					<div className="text-base text-center w-xl sm:w-5/6 break-all">
