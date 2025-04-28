@@ -3,15 +3,16 @@ import Image from "next/image";
 
 export default function Home() {
 	return (
-		<div>
-			<Image
-				src="/stars.webp"
-				alt="main image"
-				fill
-				priority={true}
-				sizes="100vw"
-				className="object-cover"
-			/>
+		<div className="relative min-h-screen">
+			<div className="fixed inset-0 w-full">
+				<Image
+					src="/stars.webp"
+					alt="background image"
+					fill
+					priority={true}
+					className="object-cover"
+				/>
+			</div>
 			<Header />
 			<div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 gap-16 sm:p-4 font-[family-name:var(--font-geist-sans)]">
 				<main className="flex flex-col gap-4 row-start-2 items-center sm:items-start">

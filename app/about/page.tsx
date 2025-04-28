@@ -64,14 +64,6 @@ export default function About() {
           <div className="text-base text-center w-xl sm:w-5/6 break-all mt-4">
             プロダクトやチームの成功を第一に考え、「この人がいるとプロジェクトが止まらない」と思っていただけるような動き方を大切にしています。技術力だけではなく、チームやプロダクトを前に進める力を活かし、より良い体験を生み出すことを目指しています。
           </div>
-          <div className="text-base text-center w-xl sm:w-5/6 break-all mt-4">
-            副業・業務委託案件を探しています
-            現在、夜間や土日を中心に対応可能な副業・業務委託案件を探しています。
-            Next.js、React
-            Nativeを用いた開発だけでなく、設計・技術推進・チーム支援など幅広く対応可能です。
-            プロダクトを一緒に育て、チームに貢献できるパートナーを目指しています。
-            ご興味をお持ちいただけましたら、お気軽にご連絡ください！
-          </div>
           <div className="text-xl sm:text-2xl font-bold text-center w-xl sm:w-5/6 break-all mt-8">
             趣味
           </div>
