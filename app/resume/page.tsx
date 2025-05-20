@@ -85,7 +85,11 @@ export default function Resume() {
               <li>Terraform 業務内で少々</li>
               <li>Serverless 業務内で少々</li>
               <li>
-                AWS EC2/ECS/CloudFront/Amplify/Cognito/S3/RDS/Lambda/CloudWatch
+                AWS EC2/ECS/CloudFront/S3/RDS/Lambda/CloudWatch
+                業務内で少々
+              </li>
+			  <li>
+                AWS Amplify/Cognito/Lambda/CloudWatch
                 業務内で少々
               </li>
               <li>Mackerel 業務内で少々</li>
