@@ -28,9 +28,7 @@ export default function Resume() {
                 2025年3月 ~ HRTech系の事業会社 フロントエンドエンジニア
                 チームリーダー
               </li>
-              <li>
-                2025年6月 ~ ToC系の事業会社 エンジニア
-              </li>
+              <li>2025年6月 ~ ToC系の事業会社 エンジニア</li>
             </ul>
           </div>
           <div className="text-xl sm:text-2xl font-bold text-center w-xl break-all">
@@ -88,16 +86,12 @@ export default function Resume() {
               <li>Terraform 業務内で少々</li>
               <li>Serverless 業務内で少々</li>
               <li>
-                AWS EC2/ECS/CloudFront/S3/RDS/Lambda/CloudWatch
-                業務内で少々
+                AWS EC2/ECS/CloudFront/S3/RDS/Lambda/CloudWatch 業務内で少々
               </li>
-			        <li>
-                AWS Amplify/Cognito/Lambda/CloudWatch
-                業務内で少々
-              </li>
+              <li>AWS Amplify/Cognito/Lambda/CloudWatch 業務内で少々</li>
               <li>Mackerel 業務内で少々</li>
               <li>Docker 業務内で少々</li>
-              <li>要件定義 一人称での経験は少なめ 1年と少し</li>
+              <li>要件定義 1年</li>
               <li>基本設計 2年</li>
               <li>詳細設計 4年</li>
               <li>テスト設計 2年半</li>
@@ -106,6 +100,7 @@ export default function Resume() {
               <li>デザインシステム構築 0⇨1の担当経験あり</li>
               <li>ピープルマネジメント経験あり</li>
               <li>チームリーダー経験あり</li>
+              <li>外部折衝経験あり</li>
             </ul>
           </details>
           <div className="text-xl sm:text-2xl font-bold text-center w-xl break-all mt-8">
