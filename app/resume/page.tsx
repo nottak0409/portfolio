@@ -28,6 +28,9 @@ export default function Resume() {
                 2025年3月 ~ HRTech系の事業会社 フロントエンドエンジニア
                 チームリーダー
               </li>
+              <li>
+                2025年6月 ~ ToC系の事業会社 エンジニア
+              </li>
             </ul>
           </div>
           <div className="text-xl sm:text-2xl font-bold text-center w-xl break-all">
