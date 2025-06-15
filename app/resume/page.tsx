@@ -44,7 +44,7 @@ export default function Resume() {
               <li>Redux 3年</li>
               <li>Recoil 半年</li>
               <li>Vue.js(2系) 1年</li>
-              <li>Next.js 半年未満</li>
+              <li>Next.js 半年</li>
             </ul>
           </details>
           <details className="w-full text-center">
@@ -88,7 +88,7 @@ export default function Resume() {
                 AWS EC2/ECS/CloudFront/S3/RDS/Lambda/CloudWatch
                 業務内で少々
               </li>
-			  <li>
+			        <li>
                 AWS Amplify/Cognito/Lambda/CloudWatch
                 業務内で少々
               </li>
