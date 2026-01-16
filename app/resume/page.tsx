@@ -104,6 +104,17 @@ export default function Resume() {
             </ul>
           </details>
           <div className="text-xl sm:text-2xl font-bold text-center w-xl break-all mt-8">
+            資格
+          </div>
+          <div className="text-base text-center w-xl break-all">
+            <ul>
+              <li>情報処理安全確保支援士試験合格</li>
+              <li>応用情報技術者試験合格</li>
+              <li>日商簿記2級</li>
+              <li>FP2級</li>
+            </ul>
+          </div>
+          <div className="text-xl sm:text-2xl font-bold text-center w-xl break-all mt-8">
             <a href="/resume.pdf" download className="hover:underline">
               詳細な職務経歴書はこちら
             </a>
