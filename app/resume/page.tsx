@@ -25,10 +25,10 @@ export default function Resume() {
               <li>2022年11月 ~ 2025年1月 医療系のITベンチャー企業 正社員</li>
               <li>2025年3月 ~ 六然システム代表 フリーランスエンジニア</li>
               <li>
-                2025年3月 ~ HRTech系の事業会社 フロントエンドエンジニア
+                2025年3月 ~ HRTech系の事業会社 フロントエンド/モバイルエンジニア
                 チームリーダー
               </li>
-              <li>2025年6月 ~ ToC系の事業会社 エンジニア</li>
+              <li>2025年6月 ~ ToC系の事業会社 バックエンドエンジニア</li>
             </ul>
           </div>
           <div className="text-xl sm:text-2xl font-bold text-center w-xl break-all">
