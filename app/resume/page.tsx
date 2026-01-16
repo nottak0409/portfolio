@@ -39,13 +39,13 @@ export default function Resume() {
               フロントエンド
             </summary>
             <ul className="pl-4">
-              <li>HTML/CSS/JavaScript 4年</li>
-              <li>TypeScript 3年</li>
-              <li>React 3年</li>
+              <li>HTML/CSS/JavaScript 5年</li>
+              <li>TypeScript 4年</li>
+              <li>React 4年</li>
               <li>Redux 3年</li>
               <li>Recoil 半年</li>
               <li>Vue.js(2系) 1年</li>
-              <li>Next.js 半年</li>
+              <li>Next.js 1年</li>
             </ul>
           </details>
           <details className="w-full text-center">
@@ -54,16 +54,13 @@ export default function Resume() {
             </summary>
             <ul className="pl-4">
               <li>PHP 2年半</li>
-              <li>Ruby 2年</li>
+              <li>Ruby 3年</li>
               <li>Laravel 2年</li>
-              <li>Ruby on Rails 2年</li>
-              <li>Node.js 2年</li>
-              <li>express.js 半年未満</li>
+              <li>Ruby on Rails 3年</li>
+              <li>Node.js 3年</li>
+              <li>express.js 1年</li>
               <li>Go 業務外で学習</li>
               <li>Rust 業務外で学習</li>
-              <li>MySQL 4年</li>
-              <li>REST API 3年</li>
-              <li>GraphQL 業務外で学習</li>
             </ul>
           </details>
           <details className="w-full text-center">
@@ -72,7 +69,7 @@ export default function Resume() {
             </summary>
             <ul className="pl-4">
               <li>React Native 1年半</li>
-              <li>Flutter 業務外で学習</li>
+              <li>Flutter 1年</li>
             </ul>
           </details>
           <details className="w-full text-center">
@@ -80,9 +77,9 @@ export default function Resume() {
               その他
             </summary>
             <ul className="pl-4">
-              <li>Git 4年半</li>
-              <li>GithubActions 2年</li>
-              <li>CircleCI 業務内で少々</li>
+              <li>Git 5年</li>
+              <li>GithubActions 3年</li>
+              <li>CircleCI 1年</li>
               <li>Terraform 業務内で少々</li>
               <li>Serverless 業務内で少々</li>
               <li>
@@ -90,13 +87,7 @@ export default function Resume() {
               </li>
               <li>AWS Amplify/Cognito/Lambda/CloudWatch 業務内で少々</li>
               <li>Mackerel 業務内で少々</li>
-              <li>Docker 業務内で少々</li>
-              <li>要件定義 1年</li>
-              <li>基本設計 2年</li>
-              <li>詳細設計 4年</li>
-              <li>テスト設計 2年半</li>
-              <li>テスト実行 4年</li>
-              <li>テスト自動化 2年</li>
+              <li>Docker 2年</li>
               <li>デザインシステム構築 0⇨1の担当経験あり</li>
               <li>ピープルマネジメント経験あり</li>
               <li>チームリーダー経験あり</li>
